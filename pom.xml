@@ -9,7 +9,7 @@
     <relativePath/>
   </parent>
 
-  <groupId>org.sunfiver.foodhotel</groupId>
+  <groupId>com.github.musabeytekin.foodhotel</groupId>
   <artifactId>food-hotel-parent</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
