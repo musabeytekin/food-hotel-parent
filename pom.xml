@@ -20,7 +20,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/FoodHotel/food-hotel-parent</url>
+      <url>https://maven.pkg.github.com/musabeytekin/food-hotel-parent</url>
     </repository>
   </distributionManagement>
 
