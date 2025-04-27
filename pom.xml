@@ -57,6 +57,7 @@
       <dependency>
         <groupId>com.github.musabeytekin.foodhotel</groupId>
         <artifactId>food-hotel-commons</artifactId>
+        <type>pom</type>
         <version>${project.version}</version>
       </dependency>
     </dependencies>
