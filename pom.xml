@@ -35,8 +35,8 @@
         <enabled>true</enabled>
       </snapshots>
     </repository>
-
   </repositories>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
