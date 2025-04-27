@@ -27,6 +27,41 @@
     </repository>
   </distributionManagement>
 
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.github.musabeytekin.foodhotel</groupId>
+        <artifactId>food-hotel-ordering-domain-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.musabeytekin.foodhotel</groupId>
+        <artifactId>food-hotel-ordering-domain-application-service</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.musabeytekin.foodhotel</groupId>
+        <artifactId>food-hotel-ordering-application</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.musabeytekin.foodhotel</groupId>
+        <artifactId>food-hotel-ordering-dataaccess</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.musabeytekin.foodhotel</groupId>
+        <artifactId>food-hotel-ordering-messaging</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.github.musabeytekin.foodhotel</groupId>
+        <artifactId>food-hotel-commons</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
