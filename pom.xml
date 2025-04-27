@@ -20,7 +20,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/musabeytekin/*</url>
+      <url>https://maven.pkg.github.com/musabeytekin/food-hotel-parent</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
@@ -35,8 +35,8 @@
         <enabled>true</enabled>
       </snapshots>
     </repository>
-  </repositories>
 
+  </repositories>
   <dependencyManagement>
     <dependencies>
       <dependency>
